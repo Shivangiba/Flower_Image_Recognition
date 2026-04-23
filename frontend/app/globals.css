@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #0C0420;
+  --color-brand-primary: #BA6E8F;
+  --color-brand-secondary: #D391B0;
+  --color-brand-accent: #9F6496;
+  --color-brand-muted: #7B466A;
+}
+
+:root {
+  --background: #0C0420;
+  --foreground: #F8F9FA;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-floral {
+  background: linear-gradient(135deg, rgba(186, 110, 143, 0.1) 0%, rgba(123, 70, 106, 0.05) 100%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(211, 145, 176, 0.15);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #D391B0, #BA6E8F);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.btn-primary {
+  background: linear-gradient(135deg, #BA6E8F 0%, #9F6496 100%);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(186, 110, 143, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C0420;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7B466A;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #BA6E8F;
+}
+
+/* Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes scan-pulse {
+  0% { box-shadow: 0 0 0 0 rgba(186, 110, 143, 0.4); }
+  70% { box-shadow: 0 0 0 15px rgba(186, 110, 143, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(186, 110, 143, 0); }
+}
+
+.animate-scan-pulse {
+  animation: scan-pulse 2s infinite;
+}
+
+.btn-scan {
+  background: transparent;
+  border: 2px solid #BA6E8F;
+  color: #BA6E8F;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-scan:hover {
+  background: rgba(186, 110, 143, 0.1);
+  border-color: #D391B0;
+  color: #D391B0;
+  transform: translateY(-2px);
+}

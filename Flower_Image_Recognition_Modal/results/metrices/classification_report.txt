@@ -1,0 +1,24 @@
+FLOWER CLASSIFICATION — TEST SET RESULTS
+=======================================================
+
+                 precision    recall  f1-score   support
+
+  Bougainvillea     0.9286    0.9579    0.9430        95
+  Chrysanthemum     0.9878    0.8710    0.9257        93
+  Cosmos flower     0.9889    0.9570    0.9727        93
+       Hibiscus     0.9556    0.9053    0.9297        95
+Jungle Geranium     0.9545    0.9231    0.9385        91
+       Marigold     1.0000    0.9579    0.9785        95
+ Marvel of peru     0.9444    0.9239    0.9341        92
+ Peacock Flower     0.9394    1.0000    0.9688        93
+     Periwinkle     0.9271    0.9780    0.9519        91
+           Rose     0.8235    0.8842    0.8528        95
+         Salvia     0.9565    0.9263    0.9412        95
+      Sunflower     0.9896    1.0000    0.9948        95
+         Zinnia     0.8911    0.9783    0.9326        92
+
+       accuracy                         0.9432      1215
+      macro avg     0.9452    0.9433    0.9434      1215
+   weighted avg     0.9452    0.9432    0.9434      1215
+
+Overall Accuracy: 94.32%
