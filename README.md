@@ -1,5 +1,21 @@
 # 🌸 FlowerAI — Deep Learning Flower Recognition
 
+🔗 **GitHub:** [https://github.com/Shivangiba/Flower_Image_Recognition](https://github.com/Shivangiba/Flower_Image_Recognition)  
+🌐 **Live Demo:** [https://flower-image-recognition.vercel.app/](https://flower-image-recognition.vercel.app/)  
+🎥 **Video Walkthrough:** [https://www.loom.com/share/e58a843073014228b3f54890796d5347](https://www.loom.com/share/e58a843073014228b3f54890796d5347)
+
+![Banner](images/banner.png)
+
+## 📸 Live Working Project
+
+![Homepage](images/Homepage.png)
+![Homepage 2](images/homepage%20-%202.png)
+![Predict Page](images/Predict_Page.png)
+![History Page 1](images/History_page_1.png)
+![History Page 2](images/history_page_2.png)
+![About Page](images/About_page.png)
+![Screenshot](images/Screenshot%202026-05-01%20012110.png)
+
 FlowerAI is a high-performance flower recognition system that uses an **EfficientNet-B0** convolutional neural network to identify 13 species of flowers with over **94% accuracy**. The application features a premium dark-themed dashboard and a **Live Flower Scanner** (Google Lens style) for real-time identification.
 
 ## 🚀 Key Features
